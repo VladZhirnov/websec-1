@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <title>Калькулятор</title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="scripts.js" defer></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="input-group">
+                <input id="numField1" class="pink-border" type="number" placeholder="0">
+                <select id="sign" class="pink-border">
+                    <option value="+">+</option>
+                    <option value="-">-</option>
+                    <option value="*">*</option>
+                    <option value="/">/</option>
+                </select>
+                <input id="numField2" class="pink-border" type="number" placeholder="0">
+            </div>
+            <button id="calcBtn" class="action-btn pink-border"><b>подсчитать</b></button>
+            <div id="output" class="output-block pink-border"></div>
+        </div>
+    </body>
+</html>
